@@ -16,7 +16,7 @@ import javax.validation.Valid;
 
 @Slf4j // log 사용을 위한 lombok 어노테이션
 @RequiredArgsConstructor // 생성자 DI를 위한 lombok 어노테이션
-@Configuration //Spring Batch의 모든 Job은 @Configuration으로 등록해서 사용합니다.
+//@Configuration //Spring Batch의 모든 Job은 @Configuration으로 등록해서 사용합니다.
 public class JobConfiguration {
     private final JobBuilderFactory jobBuilderFactory; // 생성자 DI 받음
     private final StepBuilderFactory stepBuilderFactory; // 생성자 DI 받음
